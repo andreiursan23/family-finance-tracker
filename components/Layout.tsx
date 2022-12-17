@@ -4,19 +4,19 @@ import React, { ReactNode } from 'react';
 // import Footer from './Footer';
 
 type LayoutProps = {
-    children: ReactNode;
+	children: ReactNode;
 };
 
 const Layout = (props: LayoutProps) => {
-    const { children } = props;
+	const { children } = props;
 
-    return (
-        <>
-            {/* <Navbar isMobile={isMobile} scrollToRef={scrollToRef} /> */}
-            {children}
-            {/* <Footer contactDetails={contactDetails} /> */}
-        </>
-    );
+	return (
+		<>
+			{/* <Navbar /> */}
+			{children}
+			{/* <Footer /> */}
+		</>
+	);
 };
 
 export default Layout;
